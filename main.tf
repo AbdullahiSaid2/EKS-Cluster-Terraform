@@ -9,8 +9,6 @@ terraform {
 
 provider "aws" {
   region     = var.region
-  access_key = "AKIAYA7XNH5JQJNXGTZ3"
-  secret_key = "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"
 }
 
 data "aws_eks_cluster" "cluster" {
